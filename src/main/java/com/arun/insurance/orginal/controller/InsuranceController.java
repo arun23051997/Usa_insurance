@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.arun.insurance.orginal.entity.InsuranceModel;
 import com.arun.insurance.orginal.insuranceservice.IInsuranceService;
 
-@RestController  // == @Controller  //@ResponseBody
+@RestController  //  @Controller  //@ResponseBody
 @RequestMapping("/insurancehomepage")
 public class InsuranceController {
 
