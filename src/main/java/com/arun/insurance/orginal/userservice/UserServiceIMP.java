@@ -37,6 +37,7 @@ public class UserServiceIMP implements IUserService {
 
 	public String registrationUser_WithSendMail(UserAndMailDetailsDTO userAndMailDetailsDTO) {
 		try {	
+			System.out.println("this is mail section");
 //			PasswordCreation exm = new PasswordCreation();
 			String psw = passwordCreation.secureRandomPassword(7);
 			System.out.println("The password : " + psw);
